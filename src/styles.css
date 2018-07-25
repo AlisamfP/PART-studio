@@ -27,6 +27,7 @@ html, body {
   height: 100%;
   width: 100%;
   min-width: 300px;
+  min-height: 500px;
 }
 
 .logo {
@@ -35,16 +36,25 @@ html, body {
 }
 
 .logoContainer {
-  padding: 30px;
+  padding: 10px;
   text-align: center;
-
-  max-height: 30%;
-  min-width: 100%;
 
 }
 
 .infoContainer {
-  padding: 30px;
+  padding: 10px;
+}
+
+.paintingContainer {
+  width: 100%;
+  text-align: center;
+}
+
+.painting {
+  max-height: 400px;
+  max-width: 100%;
+
+  align-self: center;
 }
 
 .social {
