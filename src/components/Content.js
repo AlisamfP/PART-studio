@@ -10,14 +10,15 @@ class Content extends Component {
     return (
       <Grid
         container
-        spacing = {24}
+        spacing = {16}
+        justify = 'center'
         alignItems = 'center'
         className = {styles.container} >
 
         <Paper className = {styles.card} >
           <Grid
             item
-            sm={4}
+            sm={6}
             xs={12}
             className = {styles.logoContainer} >
             <img src={logo} className={styles.logo} alt="logo" />
@@ -25,11 +26,11 @@ class Content extends Component {
 
           <Grid
             item
-            sm={8}
+            sm={6}
             xs={12}
             className= {styles.infoContainer}>
 
-            <Typography varient='Headline'>
+            <Typography variant='title'>
               Lindsay makes art. You can buy it.
             </Typography>
 

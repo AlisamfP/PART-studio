@@ -13,33 +13,38 @@ html, body {
 }
 
 .container {
-  padding: 100px;
   height: 100%;
-}
-
-.logo {
-  width: 100%;
-}
-
-.logoContainer {
-  align-self: center;
-
-  padding: 30px;
-
-  height: 100%;
-  width: 30%;
-}
-
-.infoContainer {
-  padding: 30px;
+  padding: 50px;
+  padding-bottom: 100px;
 }
 
 .card {
   display: flex;
+  flex-direction: column;
+
   margin: 0 auto;
-  padding: 50px;
-  width: 80%;
-  height: 80%;
+
+  height: 100%;
+  width: 100%;
+  min-width: 300px;
+}
+
+.logo {
+  height: 150px;
+  width: 150px;
+}
+
+.logoContainer {
+  padding: 30px;
+  text-align: center;
+
+  max-height: 30%;
+  min-width: 100%;
+
+}
+
+.infoContainer {
+  padding: 30px;
 }
 
 .social {
