@@ -18,8 +18,20 @@ html, body {
 }
 
 .logo {
-  height: 80px;
-  width: 80px;
+  width: 100%;
+}
+
+.logoContainer {
+  align-self: center;
+
+  padding: 30px;
+
+  height: 100%;
+  width: 30%;
+}
+
+.infoContainer {
+  padding: 30px;
 }
 
 .card {
