@@ -2,12 +2,19 @@ import React, { Component } from 'react';
 
 import { Etsy, Facebook, Twitter } from 'mdi-material-ui'
 import { BottomNavigation, BottomNavigationAction } from '@material-ui/core'
-
+import styles from '../styles.css'
 
 class BottomNav extends Component {
+  handleChange = (event, value) => {
+    window.open(value)
+  }
+
   render() {
     return (
-      <BottomNavigation showLabels >
+      <BottomNavigation
+        showLabels
+        onChange={this.handleChange}
+        className = {styles.social} >
           <BottomNavigationAction
             icon = {<Etsy />}
             label = 'Etsy'
@@ -16,7 +23,7 @@ class BottomNav extends Component {
           <BottomNavigationAction
             icon = {<Twitter />}
             label = 'Twitter'
-            value="https://twitter.com/studio_part"
+            value="https://twitter.com/palsonartsudio"
           />
           <BottomNavigationAction
             icon = {<Facebook />}

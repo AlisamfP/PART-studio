@@ -1,6 +1,20 @@
-.body {
+html, body {
   height: 100%;
   min-height: 100%;
+
+  margin: 0;
+  padding: 0;
+}
+
+
+.root {
+  flex-grow: 1;
+  height: 100%;
+}
+
+.container {
+  padding: 100px;
+  height: 100%;
 }
 
 .logo {
@@ -8,25 +22,16 @@
   width: 80px;
 }
 
-.info {
-  background-color: pink;
-  padding: 30px;
-  width: 100%;
-
+.card {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-}
-
-.intro {
-  display: flex;
-  background-color: oldlace;
+  margin: 0 auto;
+  padding: 50px;
+  width: 80%;
+  height: 80%;
 }
 
 .social {
-  background-color: red;
-}
-
-.socialLink {
-
+  bottom: 0;
+  position: absolute;
+  width: 100%;
 }
