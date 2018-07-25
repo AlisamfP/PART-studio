@@ -6,7 +6,6 @@ import BottomNav from './components/BottomNav.js';
 
 import styles from './styles.css';
 
-import logo from './partStudioLogo.png';
 class App extends Component {
 
   render() {

@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 
 import { Grid, Paper, Typography } from '@material-ui/core'
 import logo from '../partStudioLogo.png'
@@ -11,33 +11,23 @@ class Content extends Component {
     return (
       <Grid
         container
-        spacing = {8}
-        justify = 'center'
-        alignItems = 'center'
-        className = {styles.container} >
+        spacing={8}
+        justify='center'
+        alignItems='center'
+        className={styles.container} >
 
-        <Paper className = {styles.card} >
-          <Grid
-            item
-            xs = {12}
-            className = {styles.logoContainer} >
-            <img src = {logo} className = {styles.logo} alt="logo" />
+        <Paper className={styles.card} >
+          <Grid item xs={12} className={styles.logoContainer} >
+            <img src={logo} className={styles.logo} alt="logo" />
           </Grid>
 
-          <Grid
-            item
-            xs = {12}
-            className= {styles.infoContainer}>
-
+          <Grid item xs={12} className={styles.infoContainer} >
             <Typography variant='title' gutterBottom align='center'>
               Providing happy accidents to your life.
             </Typography>
           </Grid>
-          <Grid
-            item
-            xs={12}
-            className = {styles.paintingContainer} >
-            <img src = {painting} className = {styles.painting} />
+          <Grid item xs={12} className={styles.paintingContainer} >
+            <img src={painting} className={styles.painting} alt="painting" />
           </Grid>
         </Paper>
 
