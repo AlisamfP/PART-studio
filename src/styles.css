@@ -1,26 +1,32 @@
 .body {
-  text-align: center;
+  height: 100%;
+  min-height: 100%;
 }
 
 .logo {
-  max-height: 80px;
-  max-width: 80px;
+  height: 80px;
+  width: 80px;
 }
 
-.header {
+.info {
   background-color: pink;
-  height: 150px;
-  padding: 20px;
-}
+  padding: 30px;
+  width: 100%;
 
-.title {
-  font-size: 1.5em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .intro {
-  font-size: large;
+  display: flex;
+  background-color: oldlace;
 }
 
 .social {
-  color: red;
+  background-color: red;
+}
+
+.socialLink {
+
 }
