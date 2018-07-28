@@ -1,7 +1,6 @@
 {
   "name": "part-studio",
   "version": "0.1.0",
-  "homepage": "http://alisamfp.github.io/part-studio",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^1.4.1",
@@ -49,10 +48,8 @@
     "whatwg-fetch": "2.0.3"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "node scripts/start.js",
-    "build": "node scripts/build.js",
+    "deploy": "node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom"
   },
   "jest": {
@@ -97,7 +94,5 @@
   "eslintConfig": {
     "extends": "react-app"
   },
-  "devDependencies": {
-    "gh-pages": "^1.2.0"
-  }
+  "devDependencies": {}
 }
