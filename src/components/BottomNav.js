@@ -23,7 +23,7 @@ class BottomNav extends Component {
           <BottomNavigationAction
             icon = {<Twitter />}
             label = 'Twitter'
-            value="https://twitter.com/palsonartsudio"
+            value="https://twitter.com/palsonartstudio"
           />
           <BottomNavigationAction
             icon = {<Facebook />}
