@@ -1,9 +1,10 @@
 import React, { Component } from 'react'
 import { Grid } from '@material-ui/core'
+
 import painting from '../images/painting.jpg'
 import styles from '../styles.css'
 
-class Paintings extends Component {
+class Painting extends Component {
   render() {
     return (
       <Grid item xs={12} className={styles.paintingContainer} >
@@ -13,4 +14,4 @@ class Paintings extends Component {
   }
 };
 
-export default Paintings
+export default Painting
