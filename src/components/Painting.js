@@ -8,7 +8,11 @@ class Painting extends Component {
   render() {
     return (
       <Grid item xs={12} className={styles.paintingContainer} >
-        <img src={painting} className={styles.painting} alt="painting" />
+        <a target="_blank"
+          rel="noopener noreferrer"
+          href="https://www.etsy.com/listing/632941271/dark-seascape-18x24-bob-ross-inspired?ref=shop_home_active_7">
+            <img src={painting} className={styles.painting} alt="painting" />
+        </a>
       </Grid>
     );
   }
