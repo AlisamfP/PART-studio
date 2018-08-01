@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 
 import { Etsy, Facebook, Instagram, Twitter } from 'mdi-material-ui'
 import { BottomNavigation, BottomNavigationAction } from '@material-ui/core'
-import styles from '../styles.css'
 
 class BottomNav extends Component {
   handleChange = (event, value) => {
@@ -13,8 +12,7 @@ class BottomNav extends Component {
     return (
       <BottomNavigation
         showLabels
-        onChange={this.handleChange}
-        className = {styles.social} >
+        onChange={this.handleChange} >
           <BottomNavigationAction
             icon = {<Etsy />}
             label = 'Etsy'
